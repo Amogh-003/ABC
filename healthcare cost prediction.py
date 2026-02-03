@@ -53,7 +53,7 @@ model.fit(X_train, y_train)
 
 # User input simulation
 def predict_cost():
-    print("Welcome to your Healthcare Cost Prediction System")
+    print("Welcome to MY Healthcare Cost Prediction System")
     name = input("Enter your name: ")
     age = int(input("Enter your age: "))
     hospital = input("Choose a hospital (Hospital A, Hospital B, Hospital C): ")
